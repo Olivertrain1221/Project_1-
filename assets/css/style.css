@@ -81,11 +81,29 @@ body {
 /* Main welcome dialogue */
 
 .welcome {
-    
+    text-align: center;
 }
 
 /* customer feedback and form styling */
 
-#form h2 {
-    
+#form-msg, h2 {
+    text-align: center;
+}
+
+#fnamei, #lnamei, #emaili, #infoi {
+    width:60%;
+}
+
+#fname, #lname, #email, #info {
+    display: block;
+    box-align: center;   
+}
+
+#infoi {
+    height:100px;
+}
+
+#submit-but {
+    background-color: darkgrey;
+    color:white
 }
