@@ -15,22 +15,32 @@ body {
 
 /* Heading and logo */
 
-#background-img {
+.background-pic {
     background-image: url("../images/sea.jpg");
     width: 100%;
-    height:300px;
+    height: 250px;
     background-repeat: no-repeat;
     background-position: center;
     margin-top: 0px;
-
+    z-index: -1;
+    position: absolute;
 }
 
-.shop-front-img {
+.welcome-container{
+    width:100%;
+    margin-top:60px;
+}
+.welcome {
     display:block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-    background-position: top, center;
+    max-width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;    
+}
+
+.shop-front-img img {
+    display:inline-block;
+    width: 33%;
+    
 }
 
 
@@ -46,6 +56,25 @@ body {
     margin-left: 15px;
     margin-right: 15px;
     margin-top: 30px;
+}
+
+/* Animation of header */
+.background-pic {
+animation-name: background-pic;
+animation-duration: 5s;
+animation-fill-mode: forwards;
+}
+
+/* creates the level of zoom header-pic */
+
+@keyframes background-pic {
+    from {
+        transform: scale(1);
+    }
+
+    to {
+        transform: scale(1.1);
+    }
 }
 
 /*navigation bar */
@@ -81,7 +110,7 @@ body {
 /* Main welcome dialogue */
 
 .welcome {
-    text-align: center;
+    text-align: left;
 }
 
 /* customer feedback and form styling */
@@ -107,3 +136,25 @@ body {
     background-color: darkgrey;
     color:white
 }
+
+/* Footer and social network styles */
+
+    footer {
+        height: 150px;
+    }
+    
+    .social {
+        text-align: center;   
+    }
+    
+    .social li {
+        display: inline;
+    }
+    
+    .social i {
+        font-size: 160%;
+        margin: 1%; 
+        padding: 3%; 
+        color: slategrey;
+    }
+
