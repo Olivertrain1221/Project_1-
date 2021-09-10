@@ -55,7 +55,7 @@ body {
     width: 5%;
     margin-left: 15px;
     margin-right: 15px;
-    margin-top: 30px;
+    margin-top: 40px;
 }
 
 /* Animation of header */
@@ -111,6 +111,10 @@ animation-fill-mode: forwards;
 
 .welcome {
     text-align: left;
+}
+
+.welcome h2 {
+    font-size: 40px;
 }
 
 /* customer feedback and form styling */
