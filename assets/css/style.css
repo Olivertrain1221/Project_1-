@@ -172,6 +172,19 @@ h2 {
     color: white
 }
 
+
+/*menu styling */
+
+.table, tr, td, th {
+    width:50%;
+    margin-left: 25%;
+    text-align:left;
+    color:black;
+    margin-bottom: 15%;
+    }
+
+
+
 /* Footer and social network styles */
 
 footer {
