@@ -4,7 +4,7 @@
 
 body {
     font-family: Lato, sans-serif;
-    color: slategrey;
+    color: #324B4B;
     font-weight: 250;
     background-color: #E0FFFF;
     height: 480px;
@@ -14,6 +14,11 @@ body {
 
 
 /* Heading and logo */
+
+header {
+    position:relative;
+}
+
 
 .background-pic {
     background-image: url("../images/sea.jpg");
@@ -83,6 +88,10 @@ body {
 #nav-bar {
     font-size: 120%;
     letter-spacing: 4px;
+    position: sticky;
+    top: 0;
+    
+
 }
 
 #nav-bar li {
@@ -90,12 +99,14 @@ body {
     text-align: center;
     list-style-type: none;
     margin-right: 20px;
-
+    position: sticky;
+    top: 0;
+    
 }
 
 #nav-bar a {
     text-decoration: none;
-    color: darkgray;
+    color: black;
     font-weight: 600;
 }
 
@@ -106,6 +117,7 @@ body {
 #nav-bar-center {
     display: table;
     margin: 0 auto;
+
 }
 
 /* Main welcome dialogue */
