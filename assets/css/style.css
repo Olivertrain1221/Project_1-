@@ -210,7 +210,9 @@ h2 {
     margin-bottom: 15%;
     }
 
-
+.shop-front-img {
+    display: flex;
+}
 
 /* Footer and social network styles */
 
@@ -280,13 +282,81 @@ footer ul {
     #main-heading {
         font-size:200%;
     }
+    #nav-bar {
+        font-size:90%;
+    }
+}
+
+@media screen and (max-width:630px) {
+    
+    .shop-front-img {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .call-today {
+        font-size: 110%;
+    }
+
+    .cod {
+        font-size: 80%;
+    }
+
+    .plaice {
+        font-size: 80%;
+    }
+
+
+    .huss {
+        font-size: 80%;
+    }
+
+    .haddock {
+        font-size: 80%;
+    }
+}
 
 
 
+@media screen and (max-width:535px) {
+
+    header {
+        height:200px;
+    }
+
+    .welcome h2 {
+        font-size: 180%;
+    }
+
+    #main-heading {
+        font-size:150%;
+    }
+    
+    #nav-bar {
+        font-size:60%;
+    }
+
+    .cod {
+        font-size: 60%;
+    }
+
+    .plaice {
+        font-size: 60%;
+    }
 
 
+    .huss {
+        font-size: 60%;
+    }
 
+    .haddock {
+        font-size: 60%;
+    }
 
+}
 
+@media screen and (max-width:430px) {
+
+    
 
 }
