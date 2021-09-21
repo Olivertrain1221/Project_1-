@@ -28,7 +28,7 @@ header {
 .background-pic {
     background-image: url("../images/sea.jpg");
     width: 100%;
-    height: 250%;
+    height: 250px;
     background-repeat: no-repeat;
     background-position: center;
     margin-top: 0px;
@@ -42,7 +42,7 @@ header {
 .welcome-container {
     width: 100%;
     margin-top: 30px;
-    
+
 }
 
 .welcome {
@@ -66,6 +66,10 @@ header {
     font-size: 300%;
     margin-top: 0px;
 }
+#main-heading a {
+    position: relative;
+    top: 7px;
+}
 
 #logo {
     height: 5%;
@@ -80,7 +84,6 @@ header {
     animation-name: background-pic;
     animation-duration: 5s;
     animation-fill-mode: forwards;
-    width: 100%;
 }
 
 /* creates the level of zoom header-pic */
@@ -159,7 +162,7 @@ header {
 #fish_section {
     width: 100%;
     height: 310px;
-
+    display:flex;
 }
 
 #fish_section div {
@@ -168,12 +171,11 @@ header {
     width: 25%;
     height: 300px;
     margin-bottom: 10px;
-    float: left;
-    margin-left: auto;
     padding: 30px 0 0 10px;
     text-align: center;
     border: 2px solid white;
     box-sizing: border-box;
+
 }
 
 
@@ -283,7 +285,7 @@ footer ul {
 
 
 
-@media screen and (max-width:756px) {
+@media screen and (max-width:780px) {
 
     header {
         height:200px;
@@ -294,6 +296,12 @@ footer ul {
     }
     #nav-bar {
         font-size:90%;
+    }
+
+    #fish_section {
+        display: flex;
+        flex-direction: column;
+        margin-right: 33%;
     }
 }
 
@@ -310,6 +318,7 @@ footer ul {
 
     .cod {
         font-size: 80%;
+        
     }
 
     .plaice {
@@ -343,24 +352,10 @@ footer ul {
     }
     
     #nav-bar {
-        font-size:60%;
-    }
-
-    .cod {
-        font-size: 60%;
-    }
-
-    .plaice {
-        font-size: 60%;
-    }
-
-
-    .huss {
-        font-size: 60%;
-    }
-
-    .haddock {
-        font-size: 60%;
+        /* font-size:60%; */
+        flex-direction: column;
+        align-items: center;
+        
     }
 
 }
@@ -441,7 +436,7 @@ footer ul {
 
 }
 
-@media screen and (max-width:430px) {
+/* @media screen and (max-width:5px) {
 
     header {
         height:200px;
@@ -477,7 +472,7 @@ footer ul {
     }
     
 
-}
+} */
 
 @media screen and (max-width:340px) {
 
