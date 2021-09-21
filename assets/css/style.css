@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald&display=swap');
 
-
+* {
+    padding:0;
+    margin:0;
+}
 
 body {
     font-family: Lato, sans-serif;
@@ -17,35 +20,41 @@ body {
 
 header {
     position:relative;
+    overflow: hidden;
+    height:250px;
 }
 
 
 .background-pic {
     background-image: url("../images/sea.jpg");
     width: 100%;
-    height: 250px;
+    height: 100%;
     background-repeat: no-repeat;
     background-position: center;
     margin-top: 0px;
     z-index: -1;
     position: absolute;
+    background-size: cover;
 }
 
 .welcome-container {
     width: 100%;
-    margin-top: 60px;
+    margin-top: 30px;
 }
 
 .welcome {
     display: block;
     max-width: 50%;
-    margin-left: 25%;
-    margin-right: 25%;
+    margin: 0 auto;
 }
 
+.welcome p {
+    margin-top:30px;
+}
 .shop-front-img img {
     display: inline-block;
     width: 33%;
+    margin-top: 30px;
 }
 
 
@@ -75,7 +84,7 @@ header {
 
 @keyframes background-pic {
     from {
-        transform: scale(1);
+        transform: scale(1.0);
     }
 
     to {
@@ -90,8 +99,7 @@ header {
     letter-spacing: 4px;
     position: sticky;
     top: 0;
-    
-
+    margin-top:30px;
 }
 
 #nav-bar li {
@@ -128,6 +136,13 @@ header {
 
 .welcome h2 {
     font-size: 40px;
+}
+
+.call-today {
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-size: 36px;
 }
 
 /* Style of the cod haddock huss */
@@ -210,6 +225,7 @@ footer {
 footer ul {
     width: 100%;
     height: 100px;
+    padding: 0;
 }
 
 .social {
@@ -226,4 +242,51 @@ footer ul {
     margin: 2%;
     padding: 4%;
     color: slategrey;
+}
+
+/* form styling */
+
+
+.contact-form {
+    text-align: center;
+}
+
+.contact-form input {
+    height:0%;
+}
+
+#info {
+    margin: auto;
+    width: 60%;
+}
+
+#submit-but {
+    background-color: black;
+    color:white;
+    width:90px;
+    height:27px;
+
+}
+
+
+
+
+@media screen and (max-width:756px) {
+
+    header {
+        height:200px;
+    }
+
+    #main-heading {
+        font-size:200%;
+    }
+
+
+
+
+
+
+
+
+
 }
