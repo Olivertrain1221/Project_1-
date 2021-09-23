@@ -213,7 +213,14 @@ h2 {
 
 /* google map */
 
+#googlemap {
+    width: 900px; 
+    height: 800px;
+    border-style: none;
+    margin-top:20px;
+    margin-left:20%;
 
+}
 
 
 /*menu styling */
