@@ -312,6 +312,18 @@ footer ul {
         display: flex;
         flex-direction: column;
         margin-right: 33%;
+        justify-content: center;
+        margin-left:35%;
+        margin-top: 90px;
+    }
+    footer {
+        font-size:80%;
+        margin-top: 90px;
+    }
+   
+    #googlemap {
+        width:45%;
+        height:45%;
     }
 }
 
@@ -343,6 +355,8 @@ footer ul {
     .haddock {
         font-size: 80%;
     }
+
+   
 }
 
 
@@ -362,7 +376,6 @@ footer ul {
     }
     
     #nav-bar {
-        /* font-size:60%; */
         flex-direction: column;
         align-items: center;
         
@@ -446,43 +459,6 @@ footer ul {
 
 }
 
-/* @media screen and (max-width:5px) {
-
-    header {
-        height:200px;
-    }
-
-    .welcome h2 {
-        font-size: 150%;
-    }
-
-    #main-heading {
-        font-size:120%;
-    }
-    
-    #nav-bar {
-        font-size: 30%;
-    }
-
-    .cod {
-        font-size: 30%;
-    }
-
-    .plaice {
-        font-size: 30%;
-    }
-
-
-    .huss {
-        font-size: 30%;
-    }
-
-    .haddock {
-        font-size: 30%;
-    }
-    
-
-} */
 
 @media screen and (max-width:340px) {
 
