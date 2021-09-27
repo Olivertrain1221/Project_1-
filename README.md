@@ -29,19 +29,13 @@ Ye Olde Fish and Chippe Shoppe is a site all about the shop and what the busines
 
 
 
-For my wireframes I used just normal pen and paper to sketch out the initial layout of the site as time went on the wireframes became outdated and I noticed un-practical and non friendly themes for people with accessibility issues. Therefore I did make changes which I can show in my later wireframes which were also drawn. 
+For my wireframes I used just normal pen and paper to sketch out the initial layout of the site as time went on the wireframes became outdated and I noticed un-practical and non friendly themes for people with accessibility issues. Therefore I did make changes and carried this out on a seperate programme. 
 
 ![Home Page Wireframe](documentation/wireframes/home-page.png)
-
-IMAGES 
+![Menu Wireframe](documentation/wireframes/menu.png)
+![Query page Wireframe](documentation/wireframes/query-page.png)
 
 I completed the overall structure of the site from home page to menu page etc. I then put this into practice and layed it out via gitpod and noticed there was also a few more issues such as text and color contrast issues. 
-
-
-
-
-IMGAES 
-
 
 
 ## Features 
@@ -52,29 +46,22 @@ IMGAES
 
 * Navigation Bar 
 
-
-
-
 * The navigation bar features a common design across all of the pages and is in keeping with the shops logo and overall sites theme. 
 
 * The navigation bar includes links on the logos on the left and right of the main  header the nav bar consists of a , Home, Menu, Queries/contact. The various title links head to the according website pages this allows the user to have easy navigation on the site. 
 
 * The navigation bar is fully responsive, for smaller screens, the bar will become smaller text wise and group on the left still being obvious as a nav bar.   * A horizontal line appears under the page that is about to be selected done via the hover function I found that since the site only consisted of 3 pages it didn’t require a underline function to show which page was selected due to it saying below the nav bar on the page (Home,Menu,Queries). 
 
-
-IMAGE 
-
+![Nav Bar](documentation/wireframes/navbar.png)
 
 * Hero image 
-
-
 
 
 * Each page includes a hero image with a text overlay to show that they are still on the same site and can navigate around and understand what page they are on within the site. 
 
 * The image was carefully chosen via pixel as I wanted it to be light enough to ensure it draws the customer into the site. And to allow the text overlay with the title of the shop on there but not cause a contrast issue. 
 
-IMAGE 
+![Hero Image](documentation/wireframes/hero.PNG)
 
 * Footer  
 
