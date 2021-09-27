@@ -303,7 +303,7 @@ footer ul {
 }
 
 
-
+/* Media Querys */
 
 @media screen and (max-width:780px) {
 
@@ -317,6 +317,10 @@ footer ul {
 
     #nav-bar {
         font-size: 90%;
+    }
+
+    #nav-bar li {
+        display: block;
     }
 
     #fish_section {
@@ -379,8 +383,9 @@ footer ul {
         height: 200px;
     }
 
-    .welcome h2 {
+    .welcome h2 p {
         font-size: 180%;
+        width:80%;
     }
 
     #main-heading {

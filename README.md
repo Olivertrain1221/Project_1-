@@ -70,13 +70,13 @@ I completed the overall structure of the site from home page to menu page etc. I
 
 * There is also a call to action for the user to then use the facebook page and tripadvisor to leave there reviews along with access to telephone numbers 
 
-
-IMAGE 
-
+![Footer](documentation/wireframes/footer.PNG)
 
 
+![Facebook](documentation/wireframes/facebook.PNG)
 
 
+![Tripadvisor](documentation/wireframes/tripadvisor.PNG)
 
 
 ### Home Page Features 
@@ -98,14 +98,10 @@ IMAGE
 * Also another inline-block element which consists of different fish for sale and what they are like as a product. 
 
 
-IMAGE 
-
-
+![Home Page](documentation/wireframes/homepage.PNG)
 
 
 ### Menu Page Features 
-
-
 
 
 * Menu page   
@@ -113,7 +109,7 @@ IMAGE
 * The main section of the Menu page is just a menu set out to allow visitors to see a detailed menu with prices and also sizes. It offers to a wide range of customers from Adults, Children and seniors. 
 
 
-
+![Menu Page](documentation/wireframes/menu1.PNG)
 
 ### Customer feedback/Queries page 
 
@@ -122,33 +118,18 @@ IMAGE
 
 * The main section of this page is to allow customer to reach out to us with any questions or issues they may face or be concerned about. A small dialogue above the contact form shows that there may be a small wait upon reply from filling the form out however will be answered as quick as possible. 
 
-
-IMAGE 
-
-
-
-
 * There is also a map to allow customers to locate us and find us which is embedded in the page via google maps. 
 
-
-IMAGE 
-
+![Query Page with Map](documentation/wireframes/query.PNG)
 
 
 
-
-
-
-* Hidden Page 
-
-
+### Hidden Page 
 
 
 * There is only one page that is hidden and not viewable. This page is the page that customers are greeted with when they fill out the contact form. This is important so customers know that they have submitted something to the site and that the “submit” button is actually doing something. 
 
-
-IMGAE 
-
+![Form completion page](documentation/wireframes/form.PNG)
 
 
 
@@ -168,19 +149,17 @@ I would also be interested in also adding a gallery page to allow customers to s
 I took a methodical and a two stage process on development I was continuiosly testing the site to ensure that there wasn’t any obvious issues with the sites such as simple links directed me to the correct pages. When I started to style the site and to give it its own “theme”. I checked that when styling the site in the launch window that the stlyes were being applied accrodingly.  
 
 
-
-
 For the second part of my testing once the site was completed I used a more structured way of testing and used the “WAVE Report” webiste to see that all my HTML code was correct without any errors in the code. I then carried out testing on multiple devices and software this allowed me to asses any issues in the code or the layout depending on what was hosting the site.  
 
 Testing was performed with the following devices/browsers: 
 
-* 2560 x 1440p 
-
 * Google Chrome (laptop) 
 
-* Firefox (laptop) 
+![Laptop View](documentation/wireframes/chrome.png)
 
 * Microsoft Edge (laptop) 
+
+![Laptop View](documentation/wireframes/chrome.png)
 
 * iPad: 1536 x 2048 display 
 
