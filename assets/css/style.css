@@ -217,8 +217,13 @@ h2 {
     width: 900px; 
     height: 800px;
     border-style: none;
-    margin-left:20%;
-    margin-top:20px;
+    margin:0 auto;
+    align-items: center;
+}
+
+#map {
+    width: 100%;
+    text-align: center;
 }
 
 
@@ -311,10 +316,10 @@ footer ul {
     #fish_section {
         display: flex;
         flex-direction: column;
-        margin-right: 33%;
+        margin:0 auto;
         justify-content: center;
-        margin-left:35%;
-        margin-top: 90px;
+        align-items: center;
+        
     }
     footer {
         font-size:80%;
