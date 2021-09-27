@@ -257,18 +257,21 @@ LIGHTHOUSE REPORT?
 
 
 
+## Deployment
 
-## Deployment  
+This project has been deployed to GitHub Pages.
+From the repository, I went to the "Settings" tab and selected "Pages" from the sub-menu.
+Once there, I selected the "main" branch from the dropdown, and then clicked the Save button.
 
-* The site was deployed to GitHub pages. the steps to deploy are as follows:  
+The deployed site can be found [here](https://olivertrain1221.github.io/Ye-olde-fish-and-chip-shop).
 
-* In the GitHub repository, navigate to the settings tab 
+### Local Deployment
 
-* Select the pages link from the setting menu on the left hand side  
+If you would like to make a clone of this repository, you can type the following command in your terminal:
 
-* Under the GitHub Pages from the source section drop-down menu, select the master branch  
+- `git clone https://github.com/Olivertrain1221/Ye-olde-fish-and-chip-shop.git`
 
-* One the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.  
+Alternatively, if you are using Gitpod, you can simply click on the green Gitpod button at the top of the repository, and this will create a new workspace in your Gitpod account. [This link](https://gitpod.io/#https://github.com/Olivertrain1221/Ye-olde-fish-and-chip-shop) will do the same thing for you if you do not see the green Gitpod button. 
 
 ## Credits 
 
