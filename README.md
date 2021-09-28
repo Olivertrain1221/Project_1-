@@ -147,12 +147,11 @@ I would also be interested in also adding a gallery page to allow customers to s
 I took a methodical and a two-stage process on development. I was continuously testing the site to ensure that there weren’t any obvious issues with the site and to ensure that all simple links directed me to the correct pages. When I started to style the site and to give it its own “theme” I came up with a light colour and then used a site called [EightShapes contrast grid](https://contrast-grid.eightshapes.com/) to ensure that all my contrasts are visible for all.
 . I checked that when styling the site in the launch window that the styles were being applied accordingly.
 
-![Wave report](documentation/wireframes/contrast-comparison.png)
-
-
+![EightShapes contrast grid](documentation/wireframes/contrast-comparison.png)
 
 I also used Wave report to ensure it was accessible and easily useable by all. As you can see no faults. It only flagged up two alerts. These alerts were due to "redundant links" the links in question are only to take the user back to the home page these links are the main header I therefore also don't believe this to be an issue. [Wave Report](https://wave.webaim.org/report#/https://olivertrain1221.github.io/Ye-olde-fish-and-chip-shop/)
 
+![Wave report photo](documentation/wireframes/wave.png)
 
 Testing was performed with the following devices/browsers: 
 
