@@ -144,7 +144,7 @@ I would also be interested in also adding a gallery page to allow customers to s
 
 ## Testing 
 
-I took a methodical and a two stage process on development I was continuiosly testing the site to ensure that there wasn’t any obvious issues with the site and to ensure that all simple links directed me to the correct pages. When I started to style the site and to give it its own “theme” I came up with a light colour and then used a site called [EightShapes contrast grid](https://contrast-grid.eightshapes.com/) to ensure that all my contrasts are visible for all.
+I took a methodical and a two stage process on development I was continiously testing the site to ensure that there wasn’t any obvious issues with the site and to ensure that all simple links directed me to the correct pages. When I started to style the site and to give it its own “theme” I came up with a light colour and then used a site called [EightShapes contrast grid](https://contrast-grid.eightshapes.com/) to ensure that all my contrasts are visible for all.
 . I checked that when styling the site in the launch window that the stlyes were being applied accrodingly.
 
 
