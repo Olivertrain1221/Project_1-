@@ -6,7 +6,7 @@
 
 Ye Olde Fish and Chippe Shoppe is a site all about the shop and what the business strives to aim to achieve for its customers. It aims for customers to be able to see what there actually coming to when collecting there food with photos and also allows them to have a look at a menu before they arrive. 
 
-
+![Responsive Design]()
 
 
 ### User Stories 
