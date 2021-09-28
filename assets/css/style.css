@@ -49,6 +49,7 @@ header {
     display: block;
     max-width: 50%;
     margin: 0 auto;
+    margin-bottom:30px;
 }
 
 .welcome p {
@@ -249,6 +250,10 @@ th {
     margin-bottom: 15%;
 }
 
+.table-spacing {
+    height:50px;
+}
+
 .shop-front-img {
     display: flex;
 }
@@ -346,10 +351,6 @@ footer ul {
         padding-bottom: 50px;
     }
 
-    #map {
-        height:10px;
-        width:10px;
-    }
 }
 
 @media screen and (max-width:695px) {
@@ -411,6 +412,25 @@ footer ul {
 }
 
 
-@media screen and (max-width:430px; ) {
+@media screen and (max-width:430px) {
+    
+    #main-heading {
+        font-size: 15px;
+    }
 
+    .background-pic {
+        height:110px;
+    }
+
+    header {
+        height:120px;
+    }
+
+    #nav-bar li {
+        font-size:13px;
+    }
+
+    #form-msg h2 {
+        font-size:20px;
+    }
 }
