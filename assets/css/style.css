@@ -195,6 +195,8 @@ header {
 #form-msg,
 h2 {
     text-align: center;
+    margin-top:20px;
+    margin-bottom:30px;
 }
 
 #fnamei,
@@ -234,6 +236,7 @@ h2 {
 #map {
     width: 100%;
     text-align: center;
+    margin-top:20px;
 }
 
 
@@ -311,11 +314,20 @@ footer ul {
     color: white;
     width: 90px;
     height: 27px;
+    margin-top:20px;
 
 }
 
 
 /* Media Querys */
+
+@media screen and (max-width:950px) {
+
+    #googlemap {
+        width:80%;
+        height:600px;
+        }
+}
 
 @media screen and (max-width:795px) {
 
@@ -409,6 +421,7 @@ footer ul {
     .welcome p {
         font-size: 18px;
     }
+
 }
 
 
@@ -430,7 +443,13 @@ footer ul {
         font-size:13px;
     }
 
-    #form-msg h2 {
+    .form-msg h2 {
         font-size:20px;
+       
     }
+    
+    #googlemap {
+        width:80%;
+        height:400px;
+        }
 }
