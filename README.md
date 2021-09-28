@@ -146,24 +146,15 @@ I would also be interested in also adding a gallery page to allow customers to s
 
 ## Testing 
 
-I took a methodical and a two stage process on development I was continuiosly testing the site to ensure that there wasn’t any obvious issues with the sites such as simple links directed me to the correct pages. When I started to style the site and to give it its own “theme”. I checked that when styling the site in the launch window that the stlyes were being applied accrodingly.
+I took a methodical and a two stage process on development I was continuiosly testing the site to ensure that there wasn’t any obvious issues with the site and to ensure that all simple links directed me to the correct pages. When I started to style the site and to give it its own “theme” I came up with a light colour and then used a site called [EightShapes contrast grid](https://contrast-grid.eightshapes.com/) to ensure that all my contrasts are visible for all.
+. I checked that when styling the site in the launch window that the stlyes were being applied accrodingly.
 
-I used a site called [EightShapes contrast grid](https://contrast-grid.eightshapes.com/) to ensure that all my contrasts are visible for all.
+
+
+
+I also used Wave report to enusre it was accesible and easily useable by all
 
 ![Wave report](documentation/wireframes/contrast-comparison.png)
-
-
-For the second part of my testing once the site was completed I used a more structured way of testing and used the "Validator.w3.org"” webiste to see that all my HTML code was correct without any errors in the code. I then carried out testing on multiple devices and software this allowed me to asses any issues in the code or the layout depending on what was hosting the site. 
-
-The code only returned one issue as can be seen that is an acceptable "warning" to have in your code validation.
-
-![Index page validator](documentation/wireframes/index.png)
-
-![Menu page validator](documentation/wireframes/menu-validator.png)
-
-![Query page validator](documentation/wireframes/query-validator.png)
-
-![Form page validator](documentation/wireframes/form-validator.png)
 
 
 Testing was performed with the following devices/browsers: 
@@ -176,33 +167,39 @@ Testing was performed with the following devices/browsers:
 
 ![Laptop View on Microsoft Edge](documentation/wireframes/edge-laptop.png)
 
+* Safari (Iphone XR Max)
 
-
-
-
-
+![Iphone XR Max on Safari](documentation/wireframes/safari-iphonex.png)
 
 
 * Interesting Bugs 
 
 *  One interesting issues I faced when coding the site was that there was an issue with the “sticky” element of my nav bar. I found this fault in early stages of development and found that it was because of a fault in my coding and this was due to me adding an extra “div” element in the site and was therefore only being the sticky bar within the element itself rather than it being an independent element and moving freely across the whole site. I addressed this issue and changed my code accordingly. 
 
-
-
-
 * Another fault that I did find was the fact that when shrinking the size of the screen down the media query wasn’t applying the correct parpameters to the “fish section” the inline boxe elements were aligning left. 
 
+* My final fault was that even though my code worked and viewed correctly on a laptop down to 320px that when displayed on a Iphone XR Max on safari the customer feedback box was misaligned. I found this was due to me needing to run my css file through a autoprefixer in css.
+
+![Iphone XR Max on safari without prefixer ran](documentation/wireframes/iphonewithourprefix.png)
+
+After I ran it through a prefixer it ran correctly and worked accordingly.
 
 ## Validator Testing  
 
-
+I used the W3C validator to ensure my code was correct and was replied only the one warning on various pages but are an acceptable "warning" to have
 
 
 * HTML  
 
 * No errors were returned when passing through the official W3C Validator. 
 
-VALIDATOR OF HTML WAVE! LINKS 
+![Index page validator](documentation/wireframes/index.png)
+
+![Menu page validator](documentation/wireframes/menu-validator.png)
+
+![Query page validator](documentation/wireframes/query-validator.png)
+
+![Form page validator](documentation/wireframes/form-validator.png)
 
 
 

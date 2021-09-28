@@ -259,8 +259,7 @@ h2 {
 #lname,
 #email,
 #info {
-    display: block;
-    box-align: center;
+    display: block;   
 }
 
 #infoi {
