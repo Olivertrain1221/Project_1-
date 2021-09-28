@@ -1,5 +1,3 @@
-# Project_1- 
-
 # Ye Olde Fish and Chippe Shoppe 
 
 ## Introduction 
