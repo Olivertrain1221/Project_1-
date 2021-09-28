@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.3.6,
+* Autoprefixer: v10.3.1
+* Browsers: last 4 version
+*/
+
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald&display=swap');
 
 * {
@@ -38,9 +45,15 @@ header {
     margin-top: 0px;
     z-index: -1;
     background-size: cover;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
 }
 
 .welcome-container {
@@ -88,20 +101,37 @@ header {
 
 /* Animation of header */
 .background-pic {
-    animation-name: background-pic;
-    animation-duration: 5s;
-    animation-fill-mode: forwards;
+    -webkit-animation-name: background-pic;
+            animation-name: background-pic;
+    -webkit-animation-duration: 5s;
+            animation-duration: 5s;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
 }
 
 /* creates the level of zoom header-pic */
 
-@keyframes background-pic {
+@-webkit-keyframes background-pic {
     from {
-        transform: scale(1.0);
+        -webkit-transform: scale(1.0);
+                transform: scale(1.0);
     }
 
     to {
-        transform: scale(1.1);
+        -webkit-transform: scale(1.1);
+                transform: scale(1.1);
+    }
+}
+
+@keyframes background-pic {
+    from {
+        -webkit-transform: scale(1.0);
+                transform: scale(1.0);
+    }
+
+    to {
+        -webkit-transform: scale(1.1);
+                transform: scale(1.1);
     }
 }
 
@@ -118,16 +148,28 @@ header {
     padding: 0;
     margin: 0;
     background-color: #e0ffff;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
 }
 
 #nav-bar ul {
-
+    gap: 0 2em;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
 }
 
 #nav-bar li {
@@ -136,7 +178,6 @@ header {
     list-style-type: none;
     margin-right: 20px;
     top: 0;
-
 }
 
 #nav-bar a {
@@ -176,6 +217,8 @@ header {
 #fish_section {
     width: 100%;
     height: 310px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 }
 
@@ -188,7 +231,8 @@ header {
     padding: 30px 0 0 10px;
     text-align: center;
     border: 2px solid white;
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
 
 }
 
@@ -208,12 +252,13 @@ h2 {
 #emaili,
 #infoi {
     width: 60%;
+
 }
 
 #fname,
 #lname,
 #email,
-#infoi {
+#info {
     display: block;
     box-align: center;
 }
@@ -234,7 +279,9 @@ h2 {
     height: 800px;
     border-style: none;
     margin: 0 auto;
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
 }
 
 #map {
@@ -262,6 +309,8 @@ th {
 }
 
 .shop-front-img {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 }
 
@@ -377,7 +426,13 @@ footer ul {
 
     #nav-bar ul {
 
-        flex-direction: column;
+        -webkit-box-orient: vertical;
+
+        -webkit-box-direction: normal;
+
+            -ms-flex-direction: column;
+
+                flex-direction: column;
 
     }
 
@@ -388,11 +443,23 @@ footer ul {
     }
 
     .shop-front-img {
-        flex-direction: column;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        align-items: center;
-        justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+    }
 
+    .shop-front-img img {
+        width: 70%;
     }
 
     .call-today {
@@ -402,7 +469,7 @@ footer ul {
 }
 
 
-@media screen and (max-width:580px) {
+@media screen and (max-width:586px) {
 
     #main-heading {
         font-size: 25px;

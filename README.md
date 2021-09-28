@@ -6,7 +6,7 @@
 
 Ye Olde Fish and Chippe Shoppe is a site all about the shop and what the business strives to aim to achieve for its customers. It aims for customers to be able to see what there actually coming to when collecting there food with photos and also allows them to have a look at a menu before they arrive. 
 
-![Responsive Design]()
+![Responsive Design](documentation/wireframes/amiresponsive.png)
 
 
 ### User Stories 
@@ -61,7 +61,7 @@ I completed the overall structure of the site from home page to menu page etc. I
 
 * The image was carefully chosen via pixel as I wanted it to be light enough to ensure it draws the customer into the site. And to allow the text overlay with the title of the shop on there but not cause a contrast issue. 
 
-![Hero Image](documentation/wireframes/hero.PNG)
+![Hero Image](documentation/wireframes/hero.png)
 
 * Footer  
 
@@ -70,13 +70,13 @@ I completed the overall structure of the site from home page to menu page etc. I
 
 * There is also a call to action for the user to then use the facebook page and tripadvisor to leave there reviews along with access to telephone numbers 
 
-![Footer](documentation/wireframes/footer.PNG)
+![Footer](documentation/wireframes/footer.png)
 
 
-![Facebook](documentation/wireframes/facebook.PNG)
+![Facebook](documentation/wireframes/facebook.png)
 
 
-![Tripadvisor](documentation/wireframes/tripadvisor.PNG)
+![Tripadvisor](documentation/wireframes/tripadvisor.png)
 
 
 ### Home Page Features 
@@ -98,7 +98,7 @@ I completed the overall structure of the site from home page to menu page etc. I
 * Also another inline-block element which consists of different fish for sale and what they are like as a product. 
 
 
-![Home Page](documentation/wireframes/homepage.PNG)
+![Home Page](documentation/wireframes/homepage.png)
 
 
 ### Menu Page Features 
@@ -109,7 +109,7 @@ I completed the overall structure of the site from home page to menu page etc. I
 * The main section of the Menu page is just a menu set out to allow visitors to see a detailed menu with prices and also sizes. It offers to a wide range of customers from Adults, Children and seniors. 
 
 
-![Menu Page](documentation/wireframes/menu1.PNG)
+![Menu Page](documentation/wireframes/menu1.png)
 
 ### Customer feedback/Queries page 
 
@@ -120,7 +120,7 @@ I completed the overall structure of the site from home page to menu page etc. I
 
 * There is also a map to allow customers to locate us and find us which is embedded in the page via google maps. 
 
-![Query Page with Map](documentation/wireframes/query.PNG)
+![Query Page with Map](documentation/wireframes/query.png)
 
 
 
@@ -129,7 +129,7 @@ I completed the overall structure of the site from home page to menu page etc. I
 
 * There is only one page that is hidden and not viewable. This page is the page that customers are greeted with when they fill out the contact form. This is important so customers know that they have submitted something to the site and that the “submit” button is actually doing something. 
 
-![Form completion page](documentation/wireframes/form.PNG)
+![Form completion page](documentation/wireframes/form.png)
 
 
 
@@ -146,28 +146,37 @@ I would also be interested in also adding a gallery page to allow customers to s
 
 ## Testing 
 
-I took a methodical and a two stage process on development I was continuiosly testing the site to ensure that there wasn’t any obvious issues with the sites such as simple links directed me to the correct pages. When I started to style the site and to give it its own “theme”. I checked that when styling the site in the launch window that the stlyes were being applied accrodingly.  
+I took a methodical and a two stage process on development I was continuiosly testing the site to ensure that there wasn’t any obvious issues with the sites such as simple links directed me to the correct pages. When I started to style the site and to give it its own “theme”. I checked that when styling the site in the launch window that the stlyes were being applied accrodingly.
+
+I used a site called [EightShapes contrast grid](https://contrast-grid.eightshapes.com/) to ensure that all my contrasts are visible for all.
+
+![Wave report](documentation/wireframes/contrast-comparison.png)
 
 
-For the second part of my testing once the site was completed I used a more structured way of testing and used the “WAVE Report” webiste to see that all my HTML code was correct without any errors in the code. I then carried out testing on multiple devices and software this allowed me to asses any issues in the code or the layout depending on what was hosting the site.  
+For the second part of my testing once the site was completed I used a more structured way of testing and used the "Validator.w3.org"” webiste to see that all my HTML code was correct without any errors in the code. I then carried out testing on multiple devices and software this allowed me to asses any issues in the code or the layout depending on what was hosting the site. 
+
+The code only returned one issue as can be seen that is an acceptable "warning" to have in your code validation.
+
+![Index page validator](documentation/wireframes/index.png)
+
+![Menu page validator](documentation/wireframes/menu-validator.png)
+
+![Query page validator](documentation/wireframes/query-validator.png)
+
+![Form page validator](documentation/wireframes/form-validator.png)
+
 
 Testing was performed with the following devices/browsers: 
 
 * Google Chrome (laptop) 
 
-![Laptop View](documentation/wireframes/chrome.png)
+![Laptop View on Google Chrome](documentation/wireframes/chrome.png)
 
 * Microsoft Edge (laptop) 
 
-![Laptop View](documentation/wireframes/chrome.png)
+![Laptop View on Microsoft Edge](documentation/wireframes/edge-laptop.png)
 
-* iPad: 1536 x 2048 display 
 
-* iOS Safari (ipad) 
-
-* iPhone Xr: 828 x 1792 display 
-
-* iOS Safari 
 
 
 
